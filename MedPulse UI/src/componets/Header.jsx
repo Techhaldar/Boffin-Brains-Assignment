@@ -31,7 +31,7 @@ const Header = () => {
             </div>
 
             {/* Contact Info and Social Icons */}
-            <div className="sm:col-span-10">
+            <div className="sm:col-span-10 bg-gray-100">
                <div className="flex flex-col sm:flex-row justify-between items-center py-4 px-6 text-gray-700 font-bold">
                   <div className="flex flex-col sm:flex-row items-center space-y-2 sm:space-y-0 sm:space-x-8">
                      <div className="flex items-center space-x-1">
@@ -58,7 +58,7 @@ const Header = () => {
 
             {/* Navigation Bar */}
             <div className="sm:col-span-10">
-               <nav className="bg-gray-100">
+               <nav>
                   <div className="flex flex-col md:flex-row justify-between items-center py-3 px-6 space-y-4 md:space-y-0">
                      <ul className="flex flex-wrap justify-center md:justify-start space-x-6 text-gray-700">
                         <li>

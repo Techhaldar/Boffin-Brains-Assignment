@@ -3,10 +3,10 @@ import { FaPlay } from "react-icons/fa";
 
 const HeroSection = () => {
    return (
-      <div className="bg-gray-50 py-10 px-5 md:px-20 h-[78vh]">
+      <div className="bg-gray-200 py-10 px-5 md:px-20 sm:h-[78vh]">
          <div className="grid grid-cols-1 md:grid-cols-2 items-center gap-10 py-16">
             {/* Left Content */}
-            <div className="space-y-4 text-center sm:text-left sm:pl-44 ">
+            <div className="space-y-4 text-center sm:text-left sm:pl-44">
                <span className="text-blue-600 font-semibold uppercase tracking-wide">
                   Ideas Thrive
                </span>
@@ -33,18 +33,16 @@ const HeroSection = () => {
             </div>
 
             {/* Right Content */}
-            <div className="relative">
-               <div className="rounded-full object-cover bg-white shadow-md relative  mx-auto w-64 h-64 md:w-80 md:h-80">
-                  <img
-                     src="https://primisconnect2wisdom.com/wp-content/uploads/2024/05/man_header.png" 
-                     alt="Doctors"
-                     className="w-full h-full"
-                  />
-               </div>
-               <div className="absolute top-10 right-5 bg-blue-100 rounded-full w-8 h-8"></div>
-               <div className="absolute bottom-10 left-5 bg-blue-100 rounded-full w-8 h-8"></div>
-               <div className="absolute -bottom-10 right-0 text-blue-200 text-8xl font-bold transform rotate-45">
-                  +
+            <div >
+               <div >
+                  <div className="rounded-full object-cover bg-white shadow-md   mx-auto w-64 h-64 md:w-80 md:h-80">
+                     <img
+                        src="https://primisconnect2wisdom.com/wp-content/uploads/2024/05/man_header.png"
+                        alt="Doctors"
+                        className="w-full h-full"
+                     />
+                  </div>
+                  
                </div>
             </div>
          </div>
