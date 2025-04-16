@@ -1,5 +1,5 @@
 import React from "react";
-import { FaVials, FaUserMd, FaHeartbeat, FaAmbulance, FaWalking } from 'react-icons/fa';
+import { FaVials, FaUserMd, FaHeartbeat, FaAmbulance, FaWalking, FaBriefcaseMedical } from 'react-icons/fa';
 import { GiScalpel } from 'react-icons/gi';
 
 const Services = () => {
@@ -7,8 +7,8 @@ const Services = () => {
       <div className="bg-gray-50 py-16 px-5 md:px-20 pt-20">
          {/* Title Section */}
          <div className="text-center mb-12">
-            <span className="text-blue-600 font-semibold uppercase tracking-wide">
-               Our Latest Service
+            <span className="text-blue-600 font-semibold uppercase tracking-wide block text-center ">
+               <FaBriefcaseMedical className="inline m-2" /> Our Latest Service
             </span>
             <h2 className="text-3xl md:text-4xl font-bold text-gray-800 mt-2">
                Compassionate care always starts with us
