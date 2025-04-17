@@ -2,6 +2,7 @@ import React from 'react';
 import { IoCallOutline, IoLocationOutline } from "react-icons/io5";
 import { CgMail } from "react-icons/cg";
 import { FaFacebookF, FaInstagram, FaTwitter, FaYoutube } from "react-icons/fa";
+import { CiMedicalCross } from "react-icons/ci";
 
 const Header = () => {
    return (
@@ -25,7 +26,7 @@ const Header = () => {
             <div className="sm:row-span-2 sm:col-span-2 bg-blue-700 flex justify-center items-center py-4 sm:py-0">
                <div className="text-white px-3 py-2">
                   <h1 className="text-lg font-bold text-center">
-                     <span className="block">MedPulse</span>
+                     <span className="flex justify-center items-center text-3xl"><CiMedicalCross className='font-bold' />MedPulse</span>
                   </h1>
                </div>
             </div>
@@ -48,10 +49,10 @@ const Header = () => {
                      </div>
                   </div>
                   <div className="flex space-x-4 mt-4 sm:mt-0">
-                     <a href="#" className="text-gray-700 hover:text-blue-600"><FaFacebookF /></a>
-                     <a href="#" className="text-gray-700 hover:text-pink-500"><FaInstagram /></a>
-                     <a href="#" className="text-gray-700 hover:text-blue-400"><FaTwitter /></a>
-                     <a href="#" className="text-gray-700 hover:text-red-600"><FaYoutube /></a>
+                     <a href="https://www.facebook.com/" target="_blank" className="text-gray-700 hover:text-blue-600"><FaFacebookF /></a>
+                     <a href="https://www.instagram.com/" target="_blank" className="text-gray-700 hover:text-pink-500"><FaInstagram /></a>
+                     <a href="https://x.com/home" target="_blank" className="text-gray-700 hover:text-blue-400"><FaTwitter /></a>
+                     <a href="https://www.youtube.com/" target="_blank" className="text-gray-700 hover:text-red-600"><FaYoutube /></a>
                   </div>
                </div>
             </div>

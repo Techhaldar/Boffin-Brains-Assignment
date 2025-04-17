@@ -1,5 +1,6 @@
 import React from 'react';
 import { FaPlay } from "react-icons/fa";
+import { ArrowRight } from 'lucide-react';
 
 const HeroSection = () => {
    return (
@@ -7,8 +8,8 @@ const HeroSection = () => {
          <div className="grid grid-cols-1 md:grid-cols-2 items-center gap-10 py-16">
             {/* Left Content */}
             <div className="space-y-4 text-center sm:text-left sm:pl-44">
-               <span className="text-blue-600 font-semibold uppercase tracking-wide">
-                  Ideas Thrive
+               <span className=" flex gap-4 justify-center sm:justify-start text-blue-600 font-semibold uppercase tracking-wide">
+                  Ideas Thrive <ArrowRight />
                </span>
                <h1 className="text-3xl md:text-5xl font-bold leading-tight text-gray-800">
                   Medical Is a Field <br />
@@ -18,7 +19,7 @@ const HeroSection = () => {
                <p className="text-gray-600">
                   As an AI language model, I don't have personal opinion
                </p>
-               <div className="flex items-center space-x-4 text-center">
+               <div className="flex justify-center sm:justify-start items-center space-x-4 text-center">
                   <button className="bg-blue-600 text-white px-5 py-3 rounded-lg flex items-center space-x-2 hover:bg-blue-700">
                      <span>Read More</span>
                      <span className="text-lg font-bold">+</span>

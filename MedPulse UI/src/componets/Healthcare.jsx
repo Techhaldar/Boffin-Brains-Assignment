@@ -1,5 +1,5 @@
 import React from "react";
-import { FaBriefcaseMedical } from "react-icons/fa";
+import { BriefcaseMedical } from 'lucide-react';
 
 const Healthcare = () => {
    return (
@@ -8,7 +8,7 @@ const Healthcare = () => {
             <div className="max-w-[1100px] mx-auto flex flex-col md:flex-row items-center justify-between gap-10 relative">
                {/* Left */}
                <div className="flex-1 md:mr-5 relative bottom-12">
-                  <p className="text-sm uppercase text-[#84d2f5] mb-2"><FaBriefcaseMedical className="inline " /> OUR LATEST SERVICE</p>
+                  <p className="text-sm uppercase text-[#84d2f5] mb-2 flex gap-2"><BriefcaseMedical /> OUR LATEST SERVICE</p>
                   <h1 className="text-4xl font-bold mb-5">A Journey Health Together</h1>
                   <p className="text-base mb-5">
                      Nemo enim ipsam voluptatem quia voluptas sit aspernatur odit aut fugit.
@@ -53,7 +53,7 @@ const Healthcare = () => {
          </section>
 
          {/* Appointment Section */}
-         <section className="bg-[#f7f7f7] py-8 px-5">
+         <section className="bg-[#f7f7f7] pt-8 px-5">
             <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4 max-w-[1100px] mx-auto bg-gray-300 p-10 rounded relative bottom-32">
                <input
                   type="text"
