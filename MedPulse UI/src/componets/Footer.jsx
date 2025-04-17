@@ -75,7 +75,7 @@ const Footer = () => {
       {/* Bottom Bar */}
       <hr />
       <div className=" py-4 px-6 flex max-w-6xl justify-between items-center mx-auto text-xs text-gray-400 relative">
-        <p>Copyright © MedPulse2025. All rights reserved.</p>
+        <p>Copyright © MedPulse2026. All rights reserved.</p>
         <div className="flex items-center sm:gap-4">
           <p>Privacy Policy</p>
           <p>Terms Of Service</p>
