@@ -5,6 +5,12 @@ import Services from './componets/Services'
 import Healthcare from './componets/Healthcare'
 import FaqSection from './componets/FaQ'
 import WorkProcess from './componets/WorkProcess'
+// import BlogCard from './componets/BlogCard'
+import BlogSection from './componets/BlogSection'
+import Footer from './componets/Footer'
+
+
+
 
 function App() {
   return (
@@ -15,6 +21,8 @@ function App() {
       <Healthcare />
       <FaqSection />
       <WorkProcess />
+      <BlogSection />
+      <Footer />
     </>
   )
 }

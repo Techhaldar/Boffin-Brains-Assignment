@@ -20,9 +20,9 @@ const workItems = [
    },
 ];
 
-export default function WorkProcess() {
+const WorkProcess = () => {
    return (
-      <section className="py-16 text-center bg-white">
+      <section id="Projects" className="py-16 text-center bg-white">
          <div className="mb-4 flex items-center justify-center gap-2 text-sm text-blue-600 font-medium">
             <BriefcaseMedical className="w-4 h-4" />
             <span>WORK PROCESS</span>
@@ -50,3 +50,5 @@ export default function WorkProcess() {
       </section>
    );
 }
+
+export default WorkProcess;

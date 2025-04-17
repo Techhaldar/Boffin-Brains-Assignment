@@ -5,7 +5,7 @@ import { BriefcaseMedical } from 'lucide-react';
 
 const Services = () => {
    return (
-      <div className="bg-gray-50 py-16 px-5 md:px-20 pt-20">
+      <div id="Services" className="bg-gray-50 py-16 px-5 md:px-20 pt-20">
          {/* Title Section */}
          <div className="text-center mb-12">
             <span className="flex justify-center gap-2 text-blue-600 font-semibold uppercase tracking-wide text-center ">

@@ -4,7 +4,7 @@ import { ArrowRight } from 'lucide-react';
 
 const HeroSection = () => {
    return (
-      <div className="bg-gray-200 py-10 px-5 md:px-20 sm:h-[78vh]">
+      <div id='Home' className="bg-gray-200 py-10 px-5 md:px-20 sm:h-[78vh]">
          <div className="grid grid-cols-1 md:grid-cols-2 items-center gap-10 py-16">
             {/* Left Content */}
             <div className="space-y-4 text-center sm:text-left sm:pl-44">

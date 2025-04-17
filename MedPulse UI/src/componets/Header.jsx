@@ -23,7 +23,7 @@ const Header = () => {
 
          <div className="grid grid-cols-1 sm:grid-cols-12 sm:grid-rows-2 bg-white shadow-md">
             {/* Logo Section */}
-            <div className="sm:row-span-2 sm:col-span-2 bg-blue-700 flex justify-center items-center py-4 sm:py-0">
+            <div id='logo' className="sm:row-span-2 sm:col-span-2 bg-blue-700 flex justify-center items-center py-4 sm:py-0">
                <div className="text-white px-3 py-2">
                   <h1 className="text-lg font-bold text-center">
                      <span className="flex justify-center items-center text-3xl"><CiMedicalCross className='font-bold' />MedPulse</span>
@@ -63,25 +63,25 @@ const Header = () => {
                   <div className="flex flex-col md:flex-row justify-between items-center py-3 px-6 space-y-4 md:space-y-0">
                      <ul className="flex flex-wrap justify-center md:justify-start space-x-6 text-gray-700">
                         <li>
-                           <a href="#" className="hover:text-blue-700">Home</a>
+                           <a href="#Home" className="hover:text-blue-700">Home</a>
                         </li>
                         <li>
-                           <a href="#" className="hover:text-blue-700">About Us</a>
+                           <a href="#About" className="hover:text-blue-700">About Us</a>
                         </li>
                         <li>
-                           <a href="#" className="hover:text-blue-700">Services</a>
+                           <a href="#Services" className="hover:text-blue-700">Services</a>
                         </li>
                         <li>
-                           <a href="#" className="hover:text-blue-700">Projects</a>
+                           <a href="#Projects" className="hover:text-blue-700">Projects</a>
                         </li>
                         <li>
-                           <a href="#" className="hover:text-blue-700">Blog</a>
+                           <a href="#Blog" className="hover:text-blue-700">Blog</a>
                         </li>
                         <li>
-                           <a href="#" className="hover:text-blue-700">Pages</a>
+                           <a href="#Pages" className="hover:text-blue-700">Pages</a>
                         </li>
                         <li>
-                           <a href="#" className="hover:text-blue-700">Contact Us</a>
+                           <a href="#Contact" className="hover:text-blue-700">Contact Us</a>
                         </li>
                      </ul>
                      <button className="bg-blue-600 hover:bg-blue-700 text-white px-4 py-2 rounded">
